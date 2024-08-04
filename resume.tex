@@ -43,7 +43,7 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-0.5in}
+\addtolength{\topmargin}{-0.7in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -54,7 +54,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-6pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
@@ -64,23 +64,23 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-5pt}}
-  }
+    {#1 \vspace{-1.5pt}}
+  }\vspace{-0.5pt}
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
+  \vspace{-3pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-6pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
@@ -90,7 +90,7 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-5pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
@@ -111,13 +111,13 @@
 %   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
 % \end{tabular*}
 \begin{center}
-	\textbf{\Huge \scshape Ayush Mishra} \\ \vspace{2pt}
+	\textbf{\Huge \scshape Ayush Mishra} \\ \vspace{1.5pt}
 	\small +91-8130776090 $|$ \href{mailto:ayush13mishra@gmail.com}{\underline{ayush13mishra@gmail.com}} $|$ 
 	\href{https://www.linkedin.com/in/ayush13mishra/}{\underline{linkedin.com/in/ayush13mishra}} 
 	%$|$\href{https://piymis.com/}{\underline{piymis.com}}
 \end{center}
 
-\vspace{-20pt}
+\vspace{-21pt}
 %-----------EDUCATION-----------
 \section{Education}
 %\vspace{-2pt}
@@ -138,15 +138,15 @@
 
 \resumeSubheading
 {Groupon}{Bengaluru, India}
-{Software Development Engineer 2}{Februrary 2024 - Present}
+{Software Development Engineer 2}{February 2024 - Present}
 \resumeItemListStart
 \resumeItem{Designed and implemented a centralized Role-Based Access Control (RBAC) system for Groupon's user management using Spring Boot, JPA, and MapStruct.}
-\resumeItem{Built a RESTful API layer for managing permissions, roles, and role requests using Open API specifications.}
+\resumeItem{Built a RESTful API layer for managing permissions, roles, and role requests conforming to Open API specifications.}
 \resumeItemListEnd
 
 \resumeSubheading
 {Swiggy}{Delhi, India}
-{Software Development Engineer 2}{September 2022 - Februrary 2024}
+{Software Development Engineer 2}{September 2022 - February 2024}
 \resumeItemListStart
 \resumeItem{Developed and maintained a high-performance search backend for Swiggy and Instamart, capable of handling massive query volumes with low latency. Enhanced search relevance through improved ranking algorithms, user context integration, and synonym/typo support using Elasticsearch.}
 \resumeItem{Optimized search infrastructure for performance, reliability, and cost-efficiency through ongoing initiatives like template simplification, data cleansing, and instrumentation improvements.}
@@ -164,7 +164,7 @@
 {Visa}{Bengaluru, India}
 {Software Engineer}{July 2019 - May 2022}
 \resumeItemListStart
-\resumeItem{Developed full-stack solutions for Visa Analytics Platform (VAP) and Visa Data Manager (VDM) using Spring Boot and React. Designed and implemented high-performance RESTful microservices and user-friendly interfaces to provide insights and performance metrics on payment transactions to banking clients.}
+\resumeItem{Developed full-stack solutions for Visa Analytics Platform (VAP) and Visa Data Manager (VDM) using Spring Boot and React. Designed and implemented high-performance RESTful microservices and user-friendly interfaces to provide insights and performance metrics on payment transactions to the banking clients.}
 \resumeItem{Built a web application to analyze risk data in payment transactions across VisaNet and Cybersource, leveraging Adobe XD for UI design.}
 \resumeItem{Implemented a payment transaction data search engine application to empower banking clients with comprehensive data exploration.}
 \resumeItemListEnd
