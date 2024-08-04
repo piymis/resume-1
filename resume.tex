@@ -43,7 +43,7 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
+\addtolength{\topmargin}{-0.5in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -64,7 +64,7 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{-5pt}}
   }
 }
 
@@ -117,7 +117,7 @@
 	%$|$\href{https://piymis.com/}{\underline{piymis.com}}
 \end{center}
 
-\vspace{-10pt}
+\vspace{-20pt}
 %-----------EDUCATION-----------
 \section{Education}
 %\vspace{-2pt}
@@ -137,32 +137,36 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{Swiggy}{Delhi, India}
-{Software Development Engineer 2}{September 2022 - Present}
+{Groupon}{Bengaluru, India}
+{Software Development Engineer 2}{Februrary 2024 - Present}
 \resumeItemListStart
-\resumeItem{Developed and maintained the search backend for Swiggy and Instamart, capable of handling high query volumes with low latency.}
-\resumeItem{Made search results more relevant by improving ranking algorithms and incorporating user context into restaurant thumbnails.}
-\resumeItem{Integrated synonym and typo support into suggestion queries by indexing relevant data in an Elasticsearch cluster and designing a custom Elasticsearch template for efficient retrieval}
-\resumeItem{Improved search infrastructure performance, reliability, and cost efficiency through ongoing optimization initiatives like template simplification, data cleansing, and instrumentation improvements.}
-\resumeItem{Ensured optimal performance and availability of search infrastructure through proactive monitoring with Grafana, CloudWatch, and Opsgenie.}
+\resumeItem{Designed and implemented a centralized Role-Based Access Control (RBAC) system for Groupon's user management using Spring Boot, JPA, and MapStruct.}
+\resumeItem{Built a RESTful API layer for managing permissions, roles, and role requests using Open API specifications.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Swiggy}{Delhi, India}
+{Software Development Engineer 2}{September 2022 - Februrary 2024}
+\resumeItemListStart
+\resumeItem{Developed and maintained a high-performance search backend for Swiggy and Instamart, capable of handling massive query volumes with low latency. Enhanced search relevance through improved ranking algorithms, user context integration, and synonym/typo support using Elasticsearch.}
+\resumeItem{Optimized search infrastructure for performance, reliability, and cost-efficiency through ongoing initiatives like template simplification, data cleansing, and instrumentation improvements.}
+\resumeItem{Ensured optimal performance and availability of search infrastructure through proactive monitoring using Grafana, CloudWatch, and Opsgenie.}
 \resumeItemListEnd
 
 \resumeSubheading
 {MoEngage}{Delhi, India}
 {Senior Software Engineer}{May 2022 - September 2022}
 \resumeItemListStart
-\resumeItem{Worked on the email notification system which is used to send email alerts and notifications to the users}
-\resumeItem{Developed a transactional email feature to send the high priority alerts and notifications to the users}
+\resumeItem{Designed and implemented an email notification system delivering timely alerts and notifications based on user-specific triggers, including a high-priority transactional email service for critical communications.}
 \resumeItemListEnd
 
 \resumeSubheading
 {Visa}{Bengaluru, India}
 {Software Engineer}{July 2019 - May 2022}
 \resumeItemListStart
-\resumeItem{Worked as a full-stack developer with Business Intelligence, Data, and AI Platform team on Visa Analytics Platform (VAP) and Visa Data Manager (VDM) which provides insights and performance metrics on the payment transactions to the banking clients.}
-\resumeItem{Designed and implemented performant RESTful microservices for VAP with Spring Boot, optimizing application and database queries for fast response times.}
-\resumeItem{Leveraged Adobe XD for wireframing and React for development, I designed and implemented the entire user interface of a web application to analyze risk data in payment transactions across VisaNet and Cybersource.}
-\resumeItem{Implemented the frontend of a payment transaction data search engine application, empowering banking clients with comprehensive data exploration.}
+\resumeItem{Developed full-stack solutions for Visa Analytics Platform (VAP) and Visa Data Manager (VDM) using Spring Boot and React. Designed and implemented high-performance RESTful microservices and user-friendly interfaces to provide insights and performance metrics on payment transactions to banking clients.}
+\resumeItem{Built a web application to analyze risk data in payment transactions across VisaNet and Cybersource, leveraging Adobe XD for UI design.}
+\resumeItem{Implemented a payment transaction data search engine application to empower banking clients with comprehensive data exploration.}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -203,9 +207,9 @@
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
 	\small{\item{
-		\textbf{Languages}{:}\hspace{16pt}{C++, Java, JavaScript, TypeScript, Python, SQL, HTML, CSS} \\
+		\textbf{Languages}{:}\hspace{16pt}{C++, Java, JavaScript, Python, SQL, HTML, CSS} \\
 		\textbf{Technologies}{: Spring Boot, Spring Web MVC framework, JPA, Hibernate, React} \\
-		\hspace{71pt}{Elasticsearch, Snowflake, DynamoDB, Oracle DB2, MySQL} \\
+		\hspace{71pt}{Elasticsearch, Snowflake, DynamoDB, PostgreSQL, MySQL} \\
 		\textbf{Others}{: }\hspace{30pt}{Git, AWS,  Prometheus, Grafana, Android Development} \\
 	}}
 \end{itemize}
